@@ -1,26 +1,68 @@
 # BigQuery E-commerce & Customer Analytics
 
-This repository contains SQL projects built in Google BigQuery to analyse
-e-commerce performance, customer behaviour and marketing effectiveness.
+This repository contains end-to-end SQL projects built using **Google BigQuery**
+to analyse **e-commerce performance, customer behaviour, churn, and trends**
+using Google Analytics–style datasets.
+
+---
+
+## 🔹 Skills Demonstrated
+- SQL (BigQuery Standard SQL)
+- Aggregations, GROUP BY, HAVING
+- Window functions (NTILE, LAG)
+- Customer analytics (RFM, Churn)
+- Time-series & trend analysis
+- Marketing analytics
+
+---
 
 ## 📊 Project 1 – Waterproof Backpack Analysis
-Analysed Google Analytics data to understand how users interacted with a
-specific product.
+**Objective:**  
+Analyse how users interact with a specific product to understand
+channel effectiveness and engagement.
 
-### Business Questions
+**Key Questions Answered:**
 - Which marketing channels brought the most visitors?
 - Which countries had the highest engagement?
-- Which users viewed the product the most?
+- Who were the most engaged users?
 
-### What I Did
-- Used GROUP BY and COUNT(DISTINCT) to measure traffic by channel
-- Used AVG(timeOnSite) to measure engagement by country
-- Used HAVING and SUM(pageviews) to identify power users
+**SQL Concepts Used:**
+- COUNT(DISTINCT)
+- GROUP BY
+- HAVING
+- Filtering
 
-### Tools & Skills
+📄 File: `Waterproofbackpack_analysis.sql`
+
+---
+
+## 📈 Project 2 – Monthly Revenue Trend Analysis
+**Objective:**  
+Understand revenue performance over time and identify growth trends.
+
+**Key Questions Answered:**
+- How does revenue change month over month?
+- Which periods performed best?
+
+**SQL Concepts Used:**
+- DATE_TRUNC
+- Time-series aggregation
+
+📄 File: `Monthly Revenue Trend.sql`
+
+---
+
+## 🛠 Tools
 - Google BigQuery
-- SQL (aggregations, filtering, grouping, HAVING)
-- Marketing & customer analytics
+- SQL (Standard SQL)
 
-This project demonstrates my ability to turn raw web data into actionable
-business insights using SQL.
+---
+
+## 📌 Notes
+- Datasets are not shared due to size and privacy.
+- Queries are written to be reusable and recruiter-friendly.
+
+---
+
+👤 **Author:** Rajat Sidana  
+🎓 Master of Business Analytics  
