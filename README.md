@@ -52,6 +52,30 @@ Understand revenue performance over time and identify growth trends.
 
 ---
 
+## 📊 Project 3 – E-commerce Web Analytics & Customer Behaviour Analysis
+
+### Objective
+Perform end-to-end SQL analysis on an e-commerce dataset to understand customer behaviour, traffic source performance, device usage, and RFM-based segmentation to support data-driven marketing and business decisions.
+
+### Key Questions Answered
+- Which geographic regions generate the highest engagement and transactions?
+- How does device type (mobile vs desktop) impact conversion behaviour?
+- What is the distribution of RFM scores across customers?
+- How do browsers and operating systems influence user activity and conversions?
+- What insights can be derived from customer interaction patterns?
+
+### SQL Concepts Used
+- COUNTIF for NULL analysis
+- Aggregations (SUM, COUNT, AVG)
+- GROUP BY and filtering
+- Conversion rate calculations
+- Customer segmentation analysis
+
+📄 File: `webanalytics.sql`
+
+
+
+
 ## 🛠 Tools
 - Google BigQuery
 - SQL (Standard SQL)
